@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Tycoon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>👑 TEEN TYCOON 👑</h1>
+        <p class="subtitle">Grow your wealth to ₹1,00,000!</p>
+
+        <div class="stats-board">
+            <h2>Day: <span id="day-display">1</span> / 10</h2>
+            <h2>Net Worth: ₹<span id="money-display">10000</span></h2>
+            <p>Lemonade Stands Owned: <span id="stands-display">0</span></p>
+        </div>
+
+        <div class="log-box" id="log-box">
+            Welcome to the business world! Choose your first strategy.
+        </div>
+
+        <div class="action-panel">
+            <button onclick="buyStand()">🛒 Buy Stand (Costs ₹2,000)</button>
+            <button onclick="investMarket()">📈 Risk ₹2,500 in Stocks</button>
+            <button onclick="passDay()">💤 Pass the Day</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
